@@ -1,7 +1,7 @@
 # sql-commands
 
 <sql queries:
-
+```json
 ALTER TABLE public.example_data 
 	ADD footbal_team varchar(100);
 	
@@ -17,6 +17,7 @@ create table example_data(
 	branch int,
 	apply_date varchar(100)
 );
+  
 
 SELECT id, "name", email, country, acc_number, branch, apply_date
 FROM public.example_data;
@@ -58,4 +59,4 @@ INSERT INTO public.rm_branch
 ("name", created_on, created_by)
 VALUES('rm-three', '', '');
 
-
+ ```
